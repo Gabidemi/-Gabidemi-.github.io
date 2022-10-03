@@ -2,23 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 h1 {
-    font-family: 'Bungee Spice', cursive;
+    font-family: 'Titan One', cursive;
+    color: chocolate;
 
 }
 
 a {
-    font-family:'Bungee Spice';
+    font-family:'Titan One';
     text-decoration:none
 
 }
 p {
     font-family: 'Titan One', cursive;
-    color:coral
+    color:chocolate
 }
 
 body {
     font-family: 'Titan One';
-    background-color:black
+    background-color:bisque;
 }
 
 a:hover {
@@ -29,3 +30,25 @@ a:hover{
     text-decoration:underline;
     text-decoration-color:blueviolet
 }
+
+#header {
+    text-align: center;
+}
+
+.center {
+    text-align:center;
+}
+#navbar {
+    background-color:burlywood
+}
+
+#navbar > a {
+    color:chocolate;
+    padding: 8px;
+    display:inline-block;
+}
+
+#navbar > a:hover {
+    background-color:gold;
+}
+
