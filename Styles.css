@@ -58,4 +58,33 @@ a:hover{
     background-color:gold;
 }
 
+input[type=text] {
+    width: 400px;
+    padding: 4px;
+    border: 4px chocolate solid;
+    border-radius: 16px;
+    border-bottom: 16px;
+}
+input[type=text]:focus {
+    width: 400px;
+    padding: 4px;
+    border: 4px gold solid;
+    border-radius: 32px;
+    border-bottom: 16px;
+}
 
+input[type=submit] {
+    width: 100px;
+    background-color:burlywood;
+    padding: 8px;
+    border-radius: 16px;
+    border: 4px chocolate solid;
+}
+
+input[type=Reset] {
+    width: 100px;
+    background-color:burlywood;
+    padding: 8px;
+    border-radius: 16px;
+    border: 4px chocolate solid;
+}
