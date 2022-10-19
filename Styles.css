@@ -1,26 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 h1 {
-    font-family: 'Titan One', cursive;
-    color: chocolate;
+    color:#fffffe
 
 }
 
 a {
-    font-family:'Titan One';
     text-decoration:none
 
 }
-p {
-    font-family: 'Titan One', cursive;
-    color:chocolate
-}
 
 body {
-    font-family: 'Titan One';
-    background-color:bisque;
+    font-family: 'Montserrat';
+    background-color:darkblue;
     margin: 0;
+    font-family: 'Montserrat', cursive;
+    color:#fffffe;
 }
 
 main {
@@ -29,12 +26,12 @@ main {
 }
 
 a:hover {
-    background-color:gold
+    background-color:aqua;
 }
 
 a:hover{
     text-decoration:underline;
-    text-decoration-color:blueviolet
+    text-decoration-color:aqua;
 }
 
 #header {
@@ -45,56 +42,70 @@ a:hover{
     text-align:center;
 }
 #navbar {
-    background-color:burlywood
+    background-color:cornflowerblue;
+    position: sticky;
+    top:0 ;
 }
 
 #navbar > a {
-    color:chocolate;
+    color: white;
     padding: 8px;
     display:inline-block;
 }
 
 #navbar > a:hover {
-    background-color:bisque;
+    background-color: darkblue;
+    text-decoration: none;
 }
 
 input[type=text] {
     width: 400px;
     padding: 4px;
-    border: 4px chocolate solid;
+    border: 4px cornflowerblue solid;
     border-radius: 16px;
     border-bottom: 16px;
 }
 input[type=text]:hover {
     width: 400px;
     padding: 4px;
-    border: 4px gold solid;
+    border: 4px cyan solid;
     border-radius: 32px;
     border-bottom: 16px;
 }
 
 input[type=text]:focus {
-    width: 450px;
-    padding: 6px;
-    border: 5px goldenrod solid;
-    border-radius: 32px;
-    border-bottom: 16px;
+    width: 420px;
+    padding: 5px;
+    border: 5px cyan solid;
+    border-radius: 16px;
+    border-bottom: 10px;
 }
 
 input[type=submit] {
     width: 100px;
-    background-color:burlywood;
+    background-color:cornflowerblue;
     padding: 8px;
     border-radius: 16px;
-    border: 4px chocolate solid;
+    border: 4px white solid;
+    color: #fffffe;
+}
+
+input[type=checkbox] {
+    color:#fffffe;
+    background-color: #fffffe;
+}
+
+label {
+    color:#fffffe;
 }
 
 input[type=Reset] {
     width: 100px;
-    background-color:burlywood;
+    background-color:cornflowerblue;
     padding: 8px;
     border-radius: 16px;
-    border: 4px chocolate solid;
+    border: 4px white solid;
+    color: #fffffe;
 }
 
 @media screen and (max-width: 480px){
@@ -131,3 +142,4 @@ input[type=Reset] {
         color:coral
     }
 }
+
